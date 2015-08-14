@@ -8,7 +8,7 @@ var system = require('system'),
 
 function mean(array) {
   var sum = 0;
-  for(var k = 0; k < array.length; k++) {
+  for (var k = 0; k < array.length; k++) {
     sum = parseFloat(sum) + parseFloat(array[k]);
   }
   return sum / array.length;
