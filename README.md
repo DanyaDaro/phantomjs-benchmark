@@ -16,4 +16,4 @@ Example PHP script:
     echo "<timegenerate>".$end."</timegenerate>";
 ?>
 ```
-Using script: ./phantomjs benchmark.js http://example.com
+<b>Using script:</b> ./phantomjs benchmark.js http://example.com
