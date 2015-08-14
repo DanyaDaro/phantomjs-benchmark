@@ -5,7 +5,7 @@ This script helpful your calculate arithmetical mean executing PHP script (or an
 
 On your webpage need puting executing time in 
 ```<tagname> ... </tagname>```
-tagname set in benchmark.js (6)
+tagname set in benchmark.js (20)
 
 Example PHP script:
 ```
