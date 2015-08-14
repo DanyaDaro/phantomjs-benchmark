@@ -7,11 +7,11 @@ tagname set in benchmark.js (6)
 
 Example PHP script:
 ```
-    <?php
+<?php
     $start = microtime(true);
     ## Your PHP script
     $end = microtime(true) - $start;
     echo "<timegenerate>".$end."</timegenerate>";
-    ?>
+?>
 ```
 Using script: ./phantomjs benchmark.js http://example.com
