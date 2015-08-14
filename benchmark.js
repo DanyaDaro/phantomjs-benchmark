@@ -1,11 +1,11 @@
 var system = require('system'),
     page = require('webpage').create(),
     address = system.args[1],
-    t,
     iteration = 50, // requests
     tagname = 'timegenerate', //tag name
     array = [],
-    count = 1;
+    count = 1,
+    t;
 
 function mean(array) {
   var sum = 0;
