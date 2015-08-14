@@ -1,8 +1,10 @@
 Benchmark on PhantomJS
 ============
 
-This script helpful your calculate arithmetical mean executing PHP script (or another scripts)
-On your webpage need puting executing time in <tagname> ... </tagname>
+This script helpful your calculate arithmetical mean executing PHP script (or another scripts).
+
+On your webpage need puting executing time in 
+```<tagname> ... </tagname>```
 tagname set in benchmark.js (6)
 
 Example PHP script:
