@@ -2,7 +2,6 @@ var system = require('system'),
     page = require('webpage').create(),
     address = system.args[1],
     iteration = 50, // requests
-    tagname = 'timegenerate', //tag name
     array = [],
     count = 1,
     t;
@@ -18,7 +17,7 @@ function mean(array) {
 function benchmark(){
   page.open(address, function () {
     t = page.evaluate(function(){
-      return document.getElementsByTagName(tagname)[0].innerHTML;
+      return document.getElementsByTagName('timegenerate')[0].innerHTML;
     });
   });
   page.onLoadFinished = function() {
