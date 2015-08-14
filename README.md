@@ -17,3 +17,4 @@ Example PHP script:
 ?>
 ```
 <b>Using script:</b> ./phantomjs benchmark.js http://example.com
+<img src="https://habrastorage.org/files/bfa/e16/18c/bfae1618cb894c73836d2784423686b6.png"/>
